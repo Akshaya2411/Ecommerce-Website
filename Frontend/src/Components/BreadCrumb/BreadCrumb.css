@@ -1,0 +1,8 @@
+.breadcrumb{
+    display: flex;
+    gap:20px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 30px 50px;
+    cursor: pointer;
+}

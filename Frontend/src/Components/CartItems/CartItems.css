@@ -1,0 +1,99 @@
+.cartitems{
+    margin: 100px 170px;
+}
+.cartitems hr{
+    height: 3px;
+    background: hsl(0, 0%, 89%);
+    border: 0;
+    width: 96%;
+}
+.format-main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+}
+.format{
+    font-size: 17px;
+    font-weight: 500;
+}
+.carticon{
+    height: 62px;
+}
+.remove-icon{
+    width: 15px;
+    margin: 0px 40px;
+    cursor: pointer;
+}
+.quant{
+    width: 64px;
+    height: 50px;
+    border: 2px solid #ebebeb;
+    background: #fff;
+}
+.totalitems{
+    display: flex;
+    margin: 100px;
+}
+.total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    gap:40px;
+}
+.tot{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.cout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    width: 262px;
+    height: 58px;
+    border-radius: 75px;
+    background: #ff4141;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.promo{
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+}
+.promo p{
+    color:#555;
+}
+.promobox{
+    width: 504px;
+    margin-top:15px;
+    padding-left: 20px;
+    height: 58px;
+    background: #eaeaea;
+}
+.promobox input{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    width: 330px;
+    height: 50px;
+}
+.promobox button{
+    width: 170px;
+    height: 58px;
+    font-size: 16px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
